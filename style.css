@@ -28,3 +28,4 @@ body.home::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:no
 @media(max-width:700px){body.home::before{background-position:center 64px;background-size:min(95vw,420px)}}
 html.en .it,html:not(.en) .en{display:none}
 .lang{margin-left:16px;color:var(--muted);text-decoration:none;border:1px solid #2a2f35;border-radius:999px;padding:2px 10px;font-size:.85rem}
+.card.test{display:block}.card ol{color:var(--muted);margin:10px 0;padding-left:1.3em}.card ol li{margin:4px 0}
