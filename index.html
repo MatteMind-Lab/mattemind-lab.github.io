@@ -3,31 +3,34 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="lang.js?v=4"></script>
 <title>MatteMind Lab</title>
-<meta name="description" content="MatteMind Lab: piccole app Android utili, senza pubblicità e senza tracciamento.">
-<link rel="stylesheet" href="style.css?v=3">
+<meta name="description" content="MatteMind Lab: piccole app Android utili, senza pubblicità e senza tracciamento. Small, useful Android apps with no ads and no tracking.">
+<link rel="stylesheet" href="style.css?v=4">
 <link rel="icon" href="favicon.png?v=3">
 <link rel="apple-touch-icon" href="apple-touch-icon.png?v=3">
 </head>
 <body class="home">
-<header><a class="brand" href="./">MatteMind <span>Lab</span></a><nav><a href="#app">App</a><a href="#contatti">Contatti</a></nav></header>
+<header><a class="brand" href="./">MatteMind <span>Lab</span></a><nav><a href="#app">App</a><a href="#contatti"><span class="it">Contatti</span><span class="en">Contact</span></a><a class="lang it" href="#" onclick="setLang('en');return false">EN</a><a class="lang en" href="#" onclick="setLang('it');return false">IT</a></nav></header>
 <main>
-<h1>Piccole app Android, fatte con cura.</h1>
-<p class="lead">MatteMind Lab sviluppa app semplici e utili, senza pubblicità e senza tracciamento. I tuoi dati restano sul tuo telefono.</p>
-<p class="lead" lang="en"><em>Small, useful Android apps. No ads, no tracking: your data stays on your phone.</em></p>
+<h1 class="it">Piccole app Android, fatte con cura.</h1>
+<h1 class="en">Small Android apps, made with care.</h1>
+<p class="lead it">MatteMind Lab sviluppa app semplici e utili, senza pubblicità e senza tracciamento. I tuoi dati restano sul tuo telefono.</p>
+<p class="lead en">MatteMind Lab builds simple, useful apps with no ads and no tracking. Your data stays on your phone.</p>
 
 <h2 id="app">App</h2>
 <div class="card">
-  <img src="ai-use/icon.png" alt="Icona di AI Use">
+  <img src="ai-use/icon.png" alt="AI Use">
   <div>
     <h3>AI Use</h3>
-    <p>Widget e tile per l'orologio che mostrano i limiti di utilizzo di Claude, Gemini, ChatGPT e Cursor.</p>
-    <a class="btn" href="ai-use/">Scopri AI Use</a>
+    <p class="it">Widget e tile per l'orologio che mostrano i limiti di utilizzo di Claude, Gemini, ChatGPT e Cursor.</p>
+    <p class="en">Widgets and watch tiles that show your Claude, Gemini, ChatGPT and Cursor usage limits.</p>
+    <a class="btn" href="ai-use/"><span class="it">Scopri AI Use</span><span class="en">Discover AI Use</span></a>
   </div>
 </div>
 
-<h2 id="contatti">Contatti</h2>
-<p>Domande, segnalazioni o idee: <a href="mailto:mattemind.lab@gmail.com">mattemind.lab@gmail.com</a></p>
+<h2 id="contatti"><span class="it">Contatti</span><span class="en">Contact</span></h2>
+<p><span class="it">Domande, segnalazioni o idee:</span><span class="en">Questions, bug reports or ideas:</span> <a href="mailto:mattemind.lab@gmail.com">mattemind.lab@gmail.com</a></p>
 </main>
 <footer>© 2026 MatteMind Lab</footer>
 </body>
